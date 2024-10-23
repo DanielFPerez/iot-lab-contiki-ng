@@ -40,7 +40,7 @@
 #include "printf.h"
 #include "debug.h"
 
-platform_reset_cause_t platform_reset_cause;
+extern platform_reset_cause_t platform_reset_cause;
 __attribute__((weak)) int32_t platform_should_start_watchdog();
 
 // Use iotlab_uid as mac address
